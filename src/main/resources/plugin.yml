@@ -1,0 +1,9 @@
+name: ${project.artifactId}
+main: me.badbones69.commandmanager.Main
+version: ${project.version}
+api-version: 1.13
+description:  Test plugin for the Commanad Manager.
+commands:
+  test:
+    description: This is a test command to test the command manager.
+    aliases: [t, te, tes]
